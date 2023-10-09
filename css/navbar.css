@@ -7,14 +7,14 @@
   --orange: #d65d0e;
 }
 
-html, body {
+body {
   font-family: 'Inter';
   background: #03131a;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: #fff;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 a {
