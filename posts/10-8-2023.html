@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Foloo Blog</title>
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/post.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="/index.html" class="logo">The Foloo Blog</a>
+    <div id="clock" class="clock" onload="showTime()">04:31:23 PM</div>
+  </nav>
+  <div class="main-content">
+    <div class="post">
+      <p>10.8.2023</p>
+      <h1>How to Site Rip</h1>
+      <img class="image" src="/images/siterip1.png">
+      <h2>Getting Started</h2>
+      <h5>So, a lot of people have been asking me where I get all of my games. This is like the easiest tutorial ever,
+        so let's get started. First, you have to install both Git and Node.js. This is necessary to move on to the next
+        step. I'll put the links to both of them down in the resources. The setup process is kinda complicated, so make
+        sure you follow the instructions.</h5>
+      <img class="image" src="/images/siterip2.png">
+      <img class="image" src="/images/siterip3.png">
+      <h5>
+        Next, you gotta click on 
+        <a href="https://github.com/EmberNetwork/Blaze" target="_blank"><b style="font-weight: 700;">this</b></a>
+        link. The next step is to open Terminal (Mac) or Console (Windows) and run this command: 
+      </h5>
+      <pre>
+				<code>git clone https://github.com/EmberNetwork/Blaze</code>
+			</pre>
+      <h5>if it gives you an error, you probably don't have git installed. Once the repo is cloned, you can go to your
+        Files or Finder app and serach for the <b style="font-weight: 700;">Blaze</b> folder. Once you find it,
+        right-click on it and click Open with Terminal or Open with Console. (If I'm wrong on Windows, I'm sorry, idk
+        about Windows.) Now, once the window pops up, run the commands </h5>
+      <pre>
+				<code>npm install</code>
+			</pre>
+      <pre>
+				<code>npm start</code>
+			</pre>
+      <h5>Once it says the local server is hosted at localhost:5000, open your browser and go to localhost:5000!</h5>
+      <h2>How to Use it</h2>
+      <h5>To use it, you have to find a webpage that hosts the game FULLSCREEN. It cannot be poki or CrazyGames, since
+        they have restrictions on game ripping. Enter the URL of the page, and put the last file after the / on the
+        bottom field. To see the files that were downloaded, go to your File Manager app and look for the <b>Blaze</b>
+        folder. Double click on that, and look for the <b>Downloads</b> folder. That is where all of your files are. It
+        will update every time you rip a new website. </h5>
+      <h5></h5>
+      <h2>Resources</h2>
+      <a href="https://git-scm.com/" target="_blank">
+        <h5>https://git-scm.com/</h5>
+      </a>
+      <a href="https://nodejs.org/en" target="_blank">
+        <h5>https://nodejs.org/en</h5>
+      </a>
+      <a href="https://github.com/EmberNetwork/Blaze" target="_blank">
+        <h5>https://github.com/EmberNetwork/Blaze</h5>
+      </a>
+    </div>
+  </div>
+</body>
+<script src="/js/clock.js"></script>
+
+</html>

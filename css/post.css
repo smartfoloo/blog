@@ -1,0 +1,36 @@
+.post {
+  margin: 10px 200px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+pre {
+  margin: 20px 0px;
+  background: #27292e;
+  padding: 15px;
+  outline: 1px solid #495057;
+  border-radius: 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.image {
+  width: 100%;
+  border: 3px solid #d65d0e;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .post {
+    margin: 10px 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .post {
+    margin: 10px 50px;
+  }
+}
