@@ -8,12 +8,12 @@ h2 {
 
 pre {
   margin: 20px 0px;
-  background: #27292e;
   padding: 15px;
   outline: 1px solid #495057;
   border-radius: 10px;
   text-align: left;
   white-space: nowrap;
+  overflow: scroll;
 }
 
 .image {
